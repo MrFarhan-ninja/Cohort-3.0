@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+.mainSection{
+    height: 100%;
+    width:100%;
+    background-color: bisque;
+    position:relative;
+}
+.left{
+    height:100%;
+    width:60%;
+    background-color: rgb(252,198,12);
+    position: absolute;
+    left:0;
+    top:0;
+}
+.right{
+    position:absolute;
+    height:100%;
+    width: 40%;
+    background-color: rgb(164, 131, 0);
+    right:0;
+    top:0;
+}
+
+#logo{
+position: relative;
+top:30px;
+left:20px;
+}
+img{
+    width: 30%;
+    object-fit: cover;
+    height: 50px;
+}
+h4{
+    position:absolute;
+    top: 30%;
+    left:20px;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+h1{
+    position:absolute;
+    top:36%;
+    left:20px;
+    font-size: 90px;
+    font-weight: 800;
+}
+p{
+    position:absolute;
+    top:52%;
+    left: 20px;
+
+}
+hr{
+    position: relative;
+    width:26px;
+    background-color: black;
+    border:2px solid black;
+    border-radius: 10px;
+    top:55%;
+    left:20px;
+}
+ span p{
+    position:absolute;
+    top:61%;
+    left:55px;
+ }
+ #circleShape{
+    border: 16px solid rgb(94, 88, 88);
+    background-color: rgb(252,198,12);
+    border-radius: 50%;
+    width:200px;
+    height: 200px;
+    position: relative;
+    top:80%;
+    left:20px;
+    opacity:0.5;
+ }
+  #circleShape1{
+    border: 15px solid rgb(94, 88, 88);
+    background-color: rgb(252,198,12);
+    border-radius: 50%;
+    width:90px;
+    height: 90px;
+    position: relative;
+    top:62%;
+    left:71px;
+    opacity:0.5;
+ }
+
+
+#ImageP{
+    position:absolute;
+    /* width:100%;
+    top:30%;
+    right: 30%;
+    z-index:88; */
+}
+img{
+    width: 100%;
+    height: 400px;
+}

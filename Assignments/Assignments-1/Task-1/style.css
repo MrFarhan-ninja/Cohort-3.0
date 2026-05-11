@@ -1,0 +1,306 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    background-color:#efefef;
+}
+
+
+
+/* =========================
+   MAIN SECTION
+========================= */
+
+.mainSection{
+    position:relative;
+
+    width:95%;
+    height:95%;
+
+    margin:20px auto;
+
+    overflow:hidden;
+    border-radius:25px;
+
+    background-color:white;
+
+    box-shadow:0px 10px 30px rgba(0,0,0,0.1);
+}
+
+
+
+/* =========================
+   LEFT SECTION
+========================= */
+
+.left{
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    width:60%;
+    height:100%;
+
+    background-color:rgb(252,198,12);
+}
+
+
+
+/* =========================
+   RIGHT SECTION
+========================= */
+
+.right{
+    position:absolute;
+
+    top:0;
+    right:0;
+
+    width:40%;
+    height:100%;
+
+    background-color:rgb(245,230,190);
+}
+
+
+
+/* =========================
+   LOGO
+========================= */
+
+#logo{
+    position:absolute;
+
+    top:35px;
+    left:40px;
+}
+
+#logo img{
+    width:150px;
+    height:auto;
+}
+
+
+
+/* =========================
+   SUB HEADING
+========================= */
+
+h4{
+    position:absolute;
+
+    top:250px;
+    left:80px;
+
+    font-size:18px;
+    letter-spacing:8px;
+}
+
+
+
+/* =========================
+   MAIN HEADING
+========================= */
+
+h1{
+    position:absolute;
+
+    top:300px;
+    left:70px;
+
+    font-size:110px;
+    font-weight:900;
+    line-height:1;
+}
+
+
+
+/* =========================
+   DESCRIPTION
+========================= */
+
+.description{
+    position:absolute;
+
+    top:470px;
+    left:80px;
+
+    width:420px;
+
+    font-size:18px;
+    line-height:1.8;
+}
+
+
+
+/* =========================
+   PAGINATION
+========================= */
+
+.pagination{
+    position:absolute;
+
+    top:700px;
+    left:80px;
+}
+
+.pagination hr{
+    position:absolute;
+
+    width:40px;
+
+    border:2px solid black;
+    border-radius:10px;
+}
+
+.pagination p{
+    position:absolute;
+
+    left:60px;
+    top:-10px;
+
+    width:120px;
+
+    font-size:18px;
+    font-weight:700;
+}
+
+
+
+/* =========================
+   DECORATIVE CIRCLES
+========================= */
+
+#circleShape{
+    position:absolute;
+
+    bottom:-60px;
+    left:-30px;
+
+    width:230px;
+    height:230px;
+
+    border-radius:50%;
+
+    border:18px solid rgba(80,80,80,0.2);
+}
+
+
+#circleShape1{
+    position:absolute;
+
+    bottom:20px;
+    left:60px;
+
+    width:100px;
+    height:100px;
+
+    border-radius:50%;
+
+    border:15px solid rgba(80,80,80,0.2);
+}
+
+
+
+/* =========================
+   PIKACHU IMAGE
+========================= */
+
+#pokemonImage{
+    position:absolute;
+
+    top:140px;
+    right:120px;
+
+    z-index:10;
+}
+
+#pokemonImage img{
+    width:760px;
+    height:auto;
+}
+
+
+
+/* =========================
+   MENU ICON
+========================= */
+
+.menu{
+    position:absolute;
+
+    top:50px;
+    right:60px;
+
+    width:40px;
+    height:5px;
+
+    background-color:black;
+}
+
+.menu::before{
+    content:"";
+
+    position:absolute;
+
+    top:12px;
+
+    width:40px;
+    height:5px;
+
+    background-color:black;
+}
+
+.menu::after{
+    content:"";
+
+    position:absolute;
+
+    top:24px;
+
+    width:40px;
+    height:5px;
+
+    background-color:black;
+}
+
+
+
+/* =========================
+   SIDE DOTS
+========================= */
+
+.dots{
+    position:absolute;
+
+    right:55px;
+    top:420px;
+}
+
+.dots span{
+    display:block;
+
+    width:12px;
+    height:12px;
+
+    margin:18px 0;
+
+    border-radius:50%;
+
+    background-color:rgb(252,198,12);
+}
+
+.dots span:first-child{
+    background-color:black;
+}
