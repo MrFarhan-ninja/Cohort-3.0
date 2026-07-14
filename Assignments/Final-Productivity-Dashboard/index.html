@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SankalpHub</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">
+          <i class="ri-focus-3-line"></i>
+          <h1>Task HR</h1>
+        </div>
+
+        <div class="header-center">
+          <div class="info-card status-item">
+            <span class="status-label">Local time</span>
+            <strong id="time"></strong>
+          </div>
+
+          <div class="info-card status-item">
+            <span class="status-label">Date</span>
+            <strong id="date"></strong>
+          </div>
+
+          <div class="info-card status-item weather-status">
+            <span class="status-label">Weather</span>
+            <strong><span id="temperature"></span><span class="weather-divider"> · </span><span id="weather"></span></strong>
+          </div>
+        </div>
+
+        <div class="header-right">
+          <button id="themeBtn">
+            <i class="ri-moon-line"></i>
+          </button>
+        </div>
+      </header>
+
+      <div class="viewcards" id="dashboardview">
+        <div class="dashboardcards" id="todolist">
+
+            <i class="ri-checkbox-circle-line feature-icon"></i>
+
+    <h3>Todo List</h3>
+
+    <p>Manage daily tasks</p>
+
+    <span class="feature-arrow">
+        <i class="ri-arrow-right-line"></i>
+    </span>
+
+
+
+
+            
+        </div>
+        <div class="dashboardcards" id="planner">
+
+            <i class="ri-calendar-check-line feature-icon"></i>
+
+    <h3>Daily Planner</h3>
+
+    <p>Plan your entire day</p>
+
+    <span class="feature-arrow">
+        <i class="ri-arrow-right-line"></i>
+    </span>
+
+
+        </div>
+        <div class="dashboardcards" id="goals">
+            <i class="ri-flag-line feature-icon"></i>
+
+    <h3 id="goalTitle">Goals Tracker</h3>
+
+    <p class="goalSubtitle">Track your progress</p>
+
+    <span class="feature-arrow">
+        <i class="ri-arrow-right-line"></i>
+    </span>
+
+
+
+        </div>
+        <div class="dashboardcards" id="pomodorotime">
+            <i class="ri-timer-line feature-icon"></i>
+
+    <h3>Pomodoro</h3>
+
+    <p>Stay focused</p>
+
+    <span class="feature-arrow">
+        <i class="ri-arrow-right-line"></i>
+    </span>
+        </div>
+        <div class="dashboardcards" id="dailymotivation">
+              <i class="ri-lightbulb-flash-line feature-icon"></i>
+
+    <h3>Motivation</h3>
+
+    <p>Daily inspiration</p>
+
+    <span class="feature-arrow">
+        <i class="ri-arrow-right-line"></i>
+    </span>
+        </div>
+      </div>
+
+
+      <section>
+        <!--feature-view-->
+        <div class="view" id="featureview">
+            <div class="hero-section">
+
+    <h1 id="greetingText">
+        Good Morning 👋
+    </h1>
+
+    <p id="heroQuote">
+        Stay hungry. Stay foolish.
+    </p>
+
+</div>
+
+<div class="dashboard-overview">
+
+    <div class="overview-card" id="goalOverview">
+
+        <div class="overview-header">
+            <i class="ri-flag-line"></i>
+            <h2>Goal Progress</h2>
+        </div>
+
+        <div class="progress-bar">
+            <div class="progress-fill" id="goalProgress"></div>
+        </div>
+
+        <p id="goalStats">
+            0 Completed • 0 Remaining
+        </p>
+
+    </div>
+
+    <div class="overview-card">
+
+        <div class="overview-header">
+            <i class="ri-checkbox-circle-line"></i>
+            <h2>Today's Tasks</h2>
+        </div>
+
+        <ul id="todayTaskList">
+
+            <li>No tasks yet.</li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+    
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
